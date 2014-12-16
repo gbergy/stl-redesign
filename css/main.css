@@ -1,11 +1,124 @@
 @charset "UTF-8";
-			
+
 p, body, ul, nav, section, span {
 	margin: 0;
 	padding: 0;
 }
 
+#current {
+	float: left;
+	display: inline-block;
+	width: 50%;
+}
+#upcoming {
+	float: right;
+	display: inline-block;
+	width: 50%;
+}
+#onview {
+/*	margin-bottom: 200px;*/
+	padding: 10px;
+	top: 150px;
+	position: absolute;
+	float: left;
+}
 
+#archive {
+	padding: 10px;
+	top: 530px;
+	position: absolute;
+	float: left;
+}
+
+#sidebar {
+	position: absolute;
+	float:left;
+	width:20%; 
+	height:100%; 
+	top: 15%;
+}
+
+#container{
+	width: 80%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+
+.home {
+	margin-top: 100px;
+	border: 5px double #FFF;
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 190px;
+}
+
+div.home a {
+	font-family: sans-serif;
+	font-size: 50px;
+	color: #FFF	
+}
+
+/****** See what this is like with % instead of px
+
+
+.home {
+	margin-top: 100px;
+	border: 5px double #FFF;
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 190px;
+}
+
+div.home a {
+	font-family: sans-serif;
+	font-size: 50px;
+	color: #FFF	
+}*/
+
+header {
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding-bottom: 100px;
+	background-color: #000;
+	z-index: 1;
+}
+
+nav {
+	height: 100%;
+	width: 20%;
+	float: left;
+	position: fixed;
+	padding-left: 30px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 20px;	
+}
+
+nav a {
+	color: white;
+}
+nav ul {
+	list-style: none;
+	margin-left: 20px; 
+
+}
+
+nav ul li {
+	/*display: inline-block;*/
+	margin: 25px;
+}
+
+	
 h2{
 	font-size:10px;
 	margin:15px 0 0 0;
@@ -24,26 +137,26 @@ body {
 	background-color: #000; 
 }
 a:link {
-	color: #FF0000;
+	color: #FFF;
 	text-decoration: none;
 }
-a:visited {
-	text-decoration: none;
-	color: #000000;
-}
-a:hover {
+/*a:visited {
 	text-decoration: none;
 	color: #000000;
-}
+}*/
+/*a:hover {
+	text-decoration: none;
+	color: #000000;
+}*/
 a:active {
 	text-decoration: none;
 	color: #000000;
 }
-a.nav:link {
+/*a.nav:link {
 	text-decoration: none;
 	color: #666666;
-}
-a.nav:visited {
+}*/
+/*a.nav:visited {
 	text-decoration: none;
 	color: #666666;
 }
@@ -72,18 +185,23 @@ a.nav_on:visited {
 a.nav_on:hover {
 	color: #666;
 	text-decoration: none
-}
+}*/
 
-.background {
+/*.background {
 	height: auto;
 	width: 1024px;
 	background-color: #000;
 	float: left;
-}
+}*/
 
 .logo {
-	height: 76px;
-	width: 950px;
+	border: 5px double #FFF;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	background-color: #000;
+	padding: 10px;
 }
 
 .logo_style {
@@ -97,38 +215,10 @@ a.nav_on:hover {
 	color: #FFF;
 }
 
-header {
-	float: left;
-	height: auto;
-	width: 950px;
-	padding-top: 20px;
-	position: fixed;
-	top: 0px;
-	padding-bottom: 25px;
-	background-color: #000;
-	/*z-index: 10;*/
-}
-
-nav {
-	height: 26px;
-	width: 940px;
-	padding-top: 15px;
-	padding-left: 30px;
-	margin-top: 10px;
-	font-family: sans-serif;
-	font-size: 20px;
-}
-
-nav ul {
-	list-style: none;
-	margin-left: 20px; 
 
 }
 
-nav ul li {
-	display: inline-block;
-	margin-right: 25px;
-}
+
 
 
 /*#nav { 
@@ -184,6 +274,10 @@ nav ul li {
 #nav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul { lists nested under hovered list items 
 	left: auto;
 }*/
+
+/*Exhibitions.html*/
+
+
 
 
 a.title:link {

@@ -15,7 +15,7 @@
 	font-size: 12px;
 	line-height: 16px;
 	color: #666666;
-	height: 400px;
+	height: 330px;
 	font-weight: normal;
 }
 .info_map {
@@ -50,7 +50,9 @@
 	height: auto;
 	width: 200px;
 }
-	#mc_embed_signup{
+
+#mc_embed_signup{
+	margin-top: 20px;
 	clear:left;
 	width:200px;
 }
