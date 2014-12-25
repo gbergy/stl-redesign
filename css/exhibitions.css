@@ -18,12 +18,11 @@
 	float: left;
 }
 .exhibition_title {
-	width: 900px;
-	margin: 100px 0;
+	width: auto;
+	margin: 150px 0 20px 0;
 	height: auto;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	text-align: center;
 }
 .exhibition_thumb {
 	float: left;
