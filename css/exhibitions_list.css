@@ -9,6 +9,11 @@
 	float: left;
 }
 
+.exhibitions_list_container:hover {
+	font-style: italic;
+
+}
+
 .exhibitions_list_status_text {
 	font-size: 25px;
 	color: #75130A;

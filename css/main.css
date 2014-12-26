@@ -1,15 +1,19 @@
 @charset "UTF-8";
 
-body, ul, nav, section, span, a {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent; 
+   text-decoration: none;
 }
 
 a:visited { text-decoration: none; color: #C93337;}
-a:hover { text-decoration: none; color: #C93337; }
-a:focus { text-decoration: none; color: #C93337; }
-a:hover, a:active { text-decoration: none; color: #C93337;}
+
+nav ul li a:hover { text-decoration: none; color: #C97C7A; }
+
 
 #current {
 	float: left;
