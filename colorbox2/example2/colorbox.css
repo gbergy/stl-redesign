@@ -25,19 +25,19 @@
     Change the following styles to modify the appearance of ColorBox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
 */
-/*#cboxOverlay{background:#fff;}*/
+#cboxOverlay{background:#000;}
 #colorbox{}
     #cboxContent{top:100px; overflow:visible;}
-        .cboxIframe{background:#fff;}
+        .cboxIframe{background:#000;}
         #cboxError{padding:50px; border:1px solid #ccc;}
-        #cboxLoadedContent{background:#fff; padding:auto;}
+        /*#cboxLoadedContent{background:#000; padding:auto;}*/
         #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
         #cboxLoadingOverlay{background:#000;}
         #cboxTitle{
 	position:absolute;
 	top:50px;
 	left:750px;
-	color:#000;
+	color:#fff;
 	width:220px;
 	padding-right:30px;
 }
@@ -49,14 +49,14 @@
 	text-align:left;
 	width:50px;
 	height:25px;
-	color:#000000;
+	color:#fff;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	top: 5px;
 }
 
-        #cboxSlideshow, #cboxPrevious, #cboxNext {text-indent:-9999px; width:20px; height:20px; position:absolute;  background:url(images/controls.png) no-repeat 0 0;}
-		#cboxClose{text-indent:-9999px; width:20px; height:20px; position:fixed;  background:url(images/controls.png) no-repeat 0 0;}
+        #cboxSlideshow, #cboxPrevious, #cboxNext {text-indent:-9999px; width:20px; height:20px; position:absolute;  background:url(images/controlsinv.png) no-repeat 0 0;}
+		#cboxClose{text-indent:-9999px; width:20px; height:20px; position:fixed;  background:url(images/controlsinv.png) no-repeat 0 0;}
         #cboxPrevious{background-position:0px 0px; left:746px; top:0px;}
         #cboxPrevious:hover{background-position:0px -25px;}
         #cboxNext{background-position:-25px 0px; left:830px; top:0px;}
