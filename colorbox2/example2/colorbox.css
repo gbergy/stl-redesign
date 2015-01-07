@@ -37,9 +37,11 @@
 	position:absolute;
 	top:50px;
 	left:750px;
-	color:#fff;
 	width:220px;
 	padding-right:30px;
+	color:#fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
 }
 
         #cboxCurrent{
@@ -51,7 +53,7 @@
 	height:25px;
 	color:#fff;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 10px;
 	top: 5px;
 }
 

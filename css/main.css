@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 
 a:visited { text-decoration: none; color: #C93337;}
 
+a {
+	color: #C93337;
+}
+
 nav ul li a:hover { text-decoration: none; color: #C97C7A; }
 
 
