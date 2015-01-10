@@ -20,7 +20,7 @@
 }
 .exhibition_title {
 	width: auto;
-	margin: 150px 0 20px 0;
+	margin: 110px 0 20px 0;
 	height: auto;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -42,6 +42,7 @@
 	padding-left: 25px;
 }
 .exhibition_press_release {
+	margin: 15px 0;
 	height: auto;
 	width: 850px;
 	float: left;
