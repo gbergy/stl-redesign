@@ -30,11 +30,12 @@ nav ul li a:hover { text-decoration: none; color: #C97C7A; }
 	width: 50%;
 }
 #onview {
-/*	margin-bottom: 200px;*/
+    /*margin-bottom: 200px;*/
 	padding: 10px;
 	top: 150px;
 	position: absolute;
 	float: left;
+	width: 100%;
 }
 
 #archive {

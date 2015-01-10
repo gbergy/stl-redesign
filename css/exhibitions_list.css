@@ -5,13 +5,17 @@
 	/*width: 1200px;*/
 	width: 80%;
 	height: auto;
-	padding-bottom: 25px;
+	padding: 20px;
 	float: left;
 }
 
-.exhibitions_list_container:hover {
+/*.exhibitions_list_container:hover {
 	font-style: italic;
 
+}*/
+
+.exhibitions_list_container:hover {
+	background-color: #1F1F1F;
 }
 
 .exhibitions_list_status_text {
