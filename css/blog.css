@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-.news_content {
+.blog_content {
 	float: left;
 	height: auto;
 	width: 600px;
 	padding-left: 50px;
 	padding-top: 167px;
 }
-.news {
+.blog {
 	height: auto;
 }
-.news_image {
+.blog_image {
 	float: left;
 }
-.news_text {
+.blog_text {
 	float: left;
 	padding-bottom: 25px;
 	font-size: 14px;

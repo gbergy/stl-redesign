@@ -58,6 +58,7 @@ html[xmlns] .clearfix {
 }
 
 #exh_container {
+	top: 100px;
 	width: 80%;
 	height: 100%;
 	float: right;
@@ -109,7 +110,7 @@ header {
 	left: 0px;
 	padding-bottom: 100px;
 	background-color: #000;
-	z-index: 1;
+	z-index: 99;
 }
 
 nav {
@@ -165,7 +166,7 @@ a:active {
     left: 0;
     right: 0;
 	position: fixed;
-	z-index: 1;
+	z-index: 99;
 	background-color: #000;
 	padding: 10px;
 
@@ -176,6 +177,7 @@ a:active {
 	font-family: sans-serif;
 	color: #C93337;
 	font-size: 40px;
+	z-index: 99;
 }
 
 a.title:link {
@@ -392,10 +394,7 @@ a.press:hover {
 	font-weight: bold;
 	color: #CCCCCC;
 }
-.float_left {
-}
-.image_center {
-}
+
 .no_border {
 	padding: 0px;
 	border-width: 0px;

@@ -10,12 +10,20 @@
 }*/
 .info_contact_text {
 	margin-top: 5%;
+	position: relative;
 	float: left;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	color: #666666;
+	color: #C23D3D;
 	height: 330px;
 	font-weight: normal;
+	z-index: 10;
+}
+
+#store_front {
+	position: absolute;
+	width: 100%
+	top: 5%;
 }
 
 #info_container{
@@ -56,6 +64,10 @@
 	float: left;
 	height: auto;
 	width: 200px;
+}
+
+.email {
+	color: #6243BD;
 }
 
 /*#mc_embed_signup{

@@ -26,19 +26,19 @@
 }
 
 
-#onview {
+#onview, #archive {
 	padding: 10px;
-	top: 150px;
 	position: relative;
-	width: 100%
+	width: 100%;
+	float: left;
 }
 
-#archive {
+/*#archive {
 	padding: 10px;
-	top: 250px;
 	position: relative;
 	float: left;
 }
+*/
 
 /*.exhibitions_list {
 	height: auto;
