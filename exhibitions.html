@@ -23,7 +23,8 @@ function MM_findObj(n, d) { //v4.01 var p,i,x;  if(!d) d=document; if((p=n.index
 </script>
 <script type="text/javascript">  var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-21835600-12']); _gaq.push(['_setDomainName', 'shootthelobster.com']); _gaq.push(['_trackPageview']);  (function() {   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>
 </head>
-<body class="background">
+<body>
+	<div class="background" class="clearfix">
 	  	<header>
 			<div class="logo logo_style"><a href="index.html">SHOOT THE LOBSTER</a>
 	      	</div>
@@ -42,31 +43,36 @@ function MM_findObj(n, d) { //v4.01 var p,i,x;  if(!d) d=document; if((p=n.index
 		</div>
 
 	
-		<div id="exh_container">
-			<section id="onview" >
-				<div id="current">
+		<div id="exh_container" >
+			<section id="onview">
+				<div class="current">
 					<p class="exhibitions_list_status_text">CURRENT</p> 
 
 					<div class="exhibitions_list_container">     
 						<!-- <div class="exhibitions_list_thumb"><a href="http://shootthelobster.com/exhibitions/mud_papers.html"><img src="images/exhibitions/mississippi mud papers/001.jpg" height="125" width="200" class="no_border"></a></div> -->       
-						<div class="exhibitions_list_text"><!-- <a href="http://shootthelobster.com/exhibitions/mud_papers.html"> -->
-						<p class="name">Liz Craft and Pentti Monkkonen<br>
-						<em>Dead End Street</em><br>
-						</p>
-						<p class="sub">
+						<!-- <a href="http://shootthelobster.com/exhibitions/mud_papers.html"> -->
+						<p class="name"><em>Dead End Street</em></p>
+						<p class="sub">Liz Craft and Pentti Monkkonen<br>
 						January 8 - February 1, 2015<br>
-						Opening reception: January 8, 6-8pm</p>         
+						Opening reception: January 8, 6-8pm</p>        
 					</div>   
 				</div><!--#current-->
 
-			<!-- 	<div id="upcoming"> <! ____NEED CLEARFIX!!!! ____>
+				<div class="upcoming"> 
 					<p class="exhibitions_list_status_text">UPCOMING</p>
 
-
-				</div>  --><!--#upcoming--> 
+					<div class="exhibitions_list_container">  
+						<!-- <div class="exhibitions_list_thumb"><a href="http://shootthelobster.com/exhibitions/mud_papers.html"><img src="images/exhibitions/mississippi mud papers/001.jpg" height="125" width="200" class="no_border"></a></div> -->       
+						<!-- <a href="http://shootthelobster.com/exhibitions/mud_papers.html"> -->
+						<p class="name"><em>Dead End Street</em></p>
+						<p class="sub">Liz Craft and Pentti Monkkonen<br>
+						January 8 - February 1, 2015<br>
+						Opening reception: January 8, 6-8pm</p>   
+					</div>
+				</div><!--#upcoming--> 
 			</section><!--#onview-->
 
-			<section id="archive">
+			<section id="archive" class="clearfix">
 				<p class="exhibitions_list_status_text">ARCHIVE</p>
 
 				<div class="exhibitions_list_container">     
@@ -105,7 +111,7 @@ function MM_findObj(n, d) { //v4.01 var p,i,x;  if(!d) d=document; if((p=n.index
 				</div>  				
 
 				<div class="exhibitions_list_container">     
-					<a href="http://shootthelobster.com/exhibitions/CasuMarzu.html">      
+					<a href="exhibitions/CasuMarzu.html">      
 						<p class="name"><em>La Casa del Casu Marzu</em>
 						</p>
 						<p class="sub">Joseph Geagan and Jessi Reaves<br>         
@@ -153,7 +159,7 @@ function MM_findObj(n, d) { //v4.01 var p,i,x;  if(!d) d=document; if((p=n.index
 				</div>  
 
 				<div class="exhibitions_list_container">     
-					<a href="http://shootthelobster.com/exhibitions/MyOldFriend.html"> 
+					<a href="exhibitions/MyOldFriend.html"> 
 						<p class="name">     
 						<em>My Old Friend, My New Friend, My Girlfriend, My Cousin and My Mentor</em><br>
 						</p>
@@ -716,7 +722,6 @@ function MM_findObj(n, d) { //v4.01 var p,i,x;  if(!d) d=document; if((p=n.index
 			
 			</section><!--#archive-->
 		</div><!--#container-->			
-	</div>
-	
+	</div><!--background-->	
 </body>	
 </html>
