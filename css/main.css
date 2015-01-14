@@ -55,6 +55,7 @@ html[xmlns] .clearfix {
 	position: relative;
 	top: 100px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #exh_container {
