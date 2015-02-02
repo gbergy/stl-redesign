@@ -163,7 +163,7 @@ a:active {
 
 .logo { /*create responsive code to lessen font size for size is reduced*/
 	border: 5px double #C93337;
-	height: 50px;
+	height: 40px;
     left: 0;
     right: 0;
 	position: fixed;
