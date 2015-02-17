@@ -9,6 +9,10 @@
 	position: relative;
 }
 
-.item:hover {
+.item a {
+	margin: 10px 0;
+}
+
+p:hover {
 	background-color: #1F1F1F;
 }
